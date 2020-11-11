@@ -5,7 +5,7 @@ org 100h
              
 MOV AX,05           
 ADD AX,AX
-ADD AX,1
+ADD AX,01
              
 ret             
 
