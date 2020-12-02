@@ -4,12 +4,15 @@
 
 org 100h
 
-MOV AX,00
-ADD AX,01
-ADD AX,04
-ADD AX,05
-MOV BX,00
-ADD BX,AX
+     K1 EQU 1
+     K2 EQU 2
+     K3 EQU 3
+     
+     MOV AX,K1
+     ADD AX,K2
+     ADD AX,K3
+     MOV BX,0
+     ADD BX,AX
 
 ret
 
